@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="fevicon.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <a href="/index.html"
+        ><h1><i class="ri-home-4-line"></i></h1
+      ></a>
+      <h1>Unit Converter</h1>
+      <div class="container">
+        <h3>Enter Number</h3>
+        <input type="number" name="unit-number" id="unit-number" />
+        <br />
+        <button class="btn" id="cm-converter">Conver to CM</button>
+        <button class="btn" id="m-converter">Conver to M</button>
+        <br />
+        <h4 id="result-message"></h4>
+        <h4 id="error-message">Error! Please Enter Any Number</h4>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
