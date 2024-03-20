@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Applications</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: rgb(33, 32, 32);
+      }
+
+      .main-container {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .container {
+        background-color: goldenrod;
+        border: 2px solid goldenrod;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+      }
+      .container h3 {
+        font-size: 2rem;
+        margin-bottom: 25px;
+      }
+
+      .btn {
+        border: none;
+        padding: 10px;
+        color: white;
+        background: rgb(215, 77, 72);
+        background: linear-gradient(
+          90deg,
+          rgba(215, 77, 72, 1) 0%,
+          rgba(253, 29, 29, 1) 0%,
+          rgba(142, 23, 168, 1) 62%
+        );
+        border-radius: 15px;
+        width: auto;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="container">
+        <h3>JavaScript Applications</h3>
+        <a href="qr-code-generator/index.html"
+          ><button class="btn">QR Code Generator</button></a
+        >
+        <br />
+        <a href="unit-converter/index.html"
+          ><button class="btn">Unit Converter</button></a
+        >
+
+        <br />
+      </div>
+    </div>
+  </body>
+</html>
