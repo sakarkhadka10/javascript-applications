@@ -1,3 +1,12 @@
+const homeIndex = document.getElementById('home-index');
+
+homeIndex.addEventListener('click', (e)=>{
+    e.preventDefault();
+
+    window.location.href = '/index.html'
+})
+
+
 const unitNumber = document.getElementById('unit-number');
 const cmConverter = document.getElementById('cm-converter');
 const mConverter = document.getElementById('m-converter');
