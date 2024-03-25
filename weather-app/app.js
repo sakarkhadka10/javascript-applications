@@ -6,7 +6,7 @@ const humid = document.getElementById('humidity');
 const air = document.querySelector('.wind');
 
 const apiKey = "82e71a1225983ae61c992b337e2b79b0";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=";
+const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=';
 
 
 
