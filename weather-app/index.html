@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Weather App</h1>
+      <div class="search">
+        <input
+          type="text"
+          name="city-name"
+          id="city-name"
+          placeholder="Eg: Kathmandu"
+        />
+        <i class="ri-search-eye-line" id="search"></i>
+      </div>
+      <div class="main">
+        <div class="weather-img">
+          <img src="img/rain.png" alt="rain" srcset="" />
+        </div>
+        <div class="home-details">
+          <h2 class="temp">28°C</h2>
+          <h2 class="city-temp" id="city-temp">Kathmandu</h2>
+        </div>
+        <div class="bottom-details">
+          <div class="col">
+            <img src="img/humidity.png" alt="Humidity" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <img src="img/wind.png" alt="Humidity" />
+            <div>
+              <p class="humidity">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
