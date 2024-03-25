@@ -1,3 +1,10 @@
+const home = document.getElementById('home-index');
+home.addEventListener('click', (e)=>{
+    e.preventDefault();
+
+    window.location.href = '/index.html'
+})
+
 const cityName = document.getElementById('city-name');
 const searchBtn = document.getElementById('search-btn');
 const cityTemp = document.getElementById('city-temp');
